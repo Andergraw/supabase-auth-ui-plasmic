@@ -1,0 +1,26 @@
+
+.auth-button {
+    font-family: var(--fonts-buttonFontFamily);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: var(--radii-borderRadiusButton);
+    font-size: var(--fontSizes-baseButtonSize);
+    padding: var(--space-buttonPadding);
+    cursor: pointer;
+    border-width: var(--borderWidths-buttonBorderWidth);
+    border-style: solid;
+    width: 100%;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 100ms;}
+.auth-button-primary {
+    background-color: var(--colors-brand);
+    color: var(--colors-brandButtonText);
+    border-color: var(--colors-brandAccent);
+}
+.auth-button-primary:hover:not(:disabled) {
+    background-color: var(--colors-brandAccent);
+}
+ 
