@@ -18,7 +18,9 @@ Now get your auth info from supabase (URL and anonkey) and paste it in your [env
 
 Go back to Plasmic and set your App Host (this project is using http://localhost:3000/plasmic-host). Also, enable authentication and copy the secret token to [environment variables](.env.local).
 
-In this example, there are two ways of signing ing: mail and Google. You need to set both them up in Supabase. Also, you can choose if you want mail confirmation before sign in or not (you can set the the email templat).
+In this example, there are two ways of signing ing: mail and Google. You need to set both them up in Supabase. Also, you can choose if you want mail confirmation before sign in or not (you can set the the email template).
+
+I have also created a [`demo project in Plasmic`](https://studio.plasmic.app/projects/jwUQnQ6rgJe4v5GYJqEzaq)
 
 ## Key files
 
