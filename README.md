@@ -1,7 +1,8 @@
+# Integration of Supabase Auth (and React's Auth UI) with Plasmic using Next.js Pages and Headless Api
 This is a demo showing a basic (and probably full of errors) implementation of Supabase authentication with Plasmic integration and using Auth UI on top of that. It is a Next.js project bootstrapped with [`create-plasmic-app`](https://www.npmjs.com/package/create-plasmic-app) and based on the [`Github example from the Plasmic team.`](https://github.com/plasmicapp/plasmic/tree/master/examples/supabase-auth-nextjs-pages-loader)
 
-[!IMPORTANT]
-It is assumed that you know how to do the basics; setting up Plasmic, setting up supabase, etc. The purpose of this project is showing a boilerplate of Supabase, Plasmic auth and Auth UI working altogether.
+> [!NOTE]
+> It is assumed that you know how to do the basics; setting up Plasmic, setting up supabase, etc. The purpose of this project is showing a boilerplate of Supabase, Plasmic auth and Auth UI working altogether.
 
 ## Getting Started
 
@@ -18,10 +19,11 @@ Now get your auth info from supabase (URL and anonkey) and paste it in your [env
 
 Go back to Plasmic and set your App Host (this project is using http://localhost:3000/plasmic-host). Also, enable authentication and copy the secret token to [environment variables](.env.local).
 
-In this example, there are two ways of signing ing: mail and Google. You need to set both them up in Supabase. Also, you can choose if you want mail confirmation before sign in or not (you can set the the email template).
+In this example, there are two ways of signing in: mail and Google. You need to set both of them up in Supabase. Also, you can choose if you want mail confirmation before sign in or not (you can set the the email template).
 
-I have also created a [`demo project in Plasmic`](https://studio.plasmic.app/projects/jwUQnQ6rgJe4v5GYJqEzaq)
-
+I have also created a [`demo project in Plasmic`](https://studio.plasmic.app/projects/jwUQnQ6rgJe4v5GYJqEzaq) 
+> [!NOTE]
+Be aware that in order to run this example project from Plasmic, you will have to set and run your localhost project first. Refer to [`Plasmic Docs for more info`](https://docs.plasmic.app/learn/code-components/)
 ## Key files
 
 - components\AuthUi: the Auth component and its associated CSS style.
